@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply h-full bg-slate-700;
+}
+
+.container {
+  @apply h-4/5 w-1/3 p-2 mt-16 mx-auto;
+}
+
+.header-section {
+  @apply flex justify-between;
+}
+
+.app-name {
+  @apply text-white text-xl font-bold mt-4;
+}
+
+.theme-section {
+  @apply flex gap-5 mr-10 w-1/6;
+}
+
+.theme-text {
+  @apply text-white text-xs mt-auto;
+}
+
+.theme-numbers-slider {
+  @apply flex flex-col gap-1;
+}
+
+.theme-numbers {
+  @apply flex gap-4 text-white text-xs;
+}
+
+.theme-slider {
+  @apply bg-slate-800  h-auto p-1 rounded-xl;
+}
+
+.slider-dot {
+  @apply bg-red-600 rounded-full h-3 w-3;
+}
+
+/*OUTPUT DISPLAY*/
+.output-display {
+  @apply h-1/4 mt-6 p-4 bg-slate-900 text-white text-2xl font-bold rounded-xl;
+}
+
+/*BUTTON SECTION*/
+.button-section {
+  @apply grid grid-cols-4 gap-5 h-3/4 mt-4 py-4 rounded-lg bg-slate-700;
+}
+
+.button-row {
+  @apply py-3;
+}
+
+.number-button {
+  @apply bg-slate-300 text-slate-700 text-2xl font-bold px-7 py-2 rounded-lg border-b-4 border-slate-400;
+}
+
+.del-button {
+  @apply bg-sky-800 text-white text-2xl font-bold px-7 py-2 rounded-lg border-b-4 border-sky-900;
+}
+
+.other-special-buttons {
+  @apply bg-slate-300 text-slate-700 text-2xl font-bold px-7 py-2 rounded-lg border-b-4 border-slate-400;
+}
+
+.reset-button {
+  @apply col-span-2 bg-sky-800 text-white text-xl font-bold px-7 py-2 rounded-lg border-b-4 border-sky-900;
+}
+
+.equals-button {
+  @apply col-span-2 bg-red-600 text-white text-2xl font-bold px-7 py-2 rounded-lg border-b-4 border-red-700;
+}
