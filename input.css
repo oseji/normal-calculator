@@ -19,7 +19,7 @@ body {
 }
 
 .theme-section {
-  @apply flex gap-5 mr-14 lg:mr-10 w-1/6 text-white font-semibold;
+  @apply flex gap-5 mr-16 lg:mr-10 w-1/6 text-white font-semibold;
 }
 
 .theme-text {
@@ -32,6 +32,18 @@ body {
 
 .theme-numbers {
   @apply flex gap-4  text-xs cursor-pointer;
+}
+
+.theme-one {
+  @apply px-0.5;
+}
+
+.theme-two {
+  @apply px-0.5;
+}
+
+.theme-three {
+  @apply px-0.5;
 }
 
 .theme-slider {
